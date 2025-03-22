@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <!-- Optional: refresh after 5 seconds in case JavaScript fails -->
+    <meta http-equiv="refresh" content="5;url=we-be-giggin://auth-callback">
+  </head>
+  <body>
+    <script>
+      // Immediately redirect the user back to your app via your custom URI scheme.
+      window.location.href = "we-be-giggin://auth-callback";
+    </script>
+    <p>Redirecting you back to the app... If not, <a href="we-be-giggin://auth-callback">click here</a>.</p>
+  </body>
+</html>
